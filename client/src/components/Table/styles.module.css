@@ -1,0 +1,175 @@
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: var(--box-shadow);
+	margin: 10px;
+	background-color: white;
+	border-radius: 4px;
+}
+.id_tab {
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1;
+}
+.title_tab {
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 2;
+	text-align: center;
+	margin-left: 5px;
+}
+.description_tab {
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1;
+}
+.price_tab {
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1;
+}
+.category_tab {
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1;
+}
+.sold_tab {
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1;
+}
+.month_tab {
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1;
+}
+
+
+
+
+
+
+.idata {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	margin: 5px 5px;
+	box-shadow: var(--box-shadow);
+	cursor: pointer;
+	transition: all 0.1s ease;
+	background-color: white;
+	border-radius: 4px;
+}
+
+.idata:hover {
+	scale: 1.01;
+}
+
+.id_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+	margin-left: 20px;
+}
+.idata_id{
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
+.title_container {
+	flex: 2;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+	margin-right: 10px;
+}
+.idata_img {
+	width: 40px;
+	height: 60px;
+	object-fit: contain;
+	margin: 0 10px;
+}
+
+.idata_title {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
+
+.description_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+	margin-right: 20px;
+}
+.idata_description{
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
+
+.price_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+	margin-left: 10px;
+}
+.idata_price{
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
+.category_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+	margin-right: 10px;
+}
+.idata_category{
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
+.sold_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+}
+.idata_sold{
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
+.month_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+}
+.idata_month{
+	font-size: 12px;
+	font-weight: 500;
+}

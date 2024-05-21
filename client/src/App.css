@@ -1,0 +1,49 @@
+.wrapper {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.container {
+	width: 85%;
+	border-radius: 10px;
+	box-shadow: var(--box-shadow);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	background-color: white;
+}
+
+.head {
+	padding-left: 10px;
+	align-items: center;
+	display: flex;
+	align-content: center;
+	height: 50px;
+	background-color: black;
+	justify-content: space-between;
+}
+/* logo class is applied to a img tag we we haven't implemented */
+/* .logo {
+	width: 100px;
+	object-fit: contain;
+	margin-left: 15px;
+} */
+
+.body {
+	height: 100%;
+	width: 85%;
+	display: flex;
+}
+
+.table_container {
+	flex: 7;
+	position: relative;
+}
+
+.filter_container {
+	flex: 1;
+}
